@@ -1,4 +1,4 @@
-package exercise.chapter2;
+package aa_exercise.chapter2;
 
 /**
  * Created by peng.tan on 17/6/25.

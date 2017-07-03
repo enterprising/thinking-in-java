@@ -1,6 +1,5 @@
-package exercise.chapter11;
+package aa_exercise.chapter11;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;

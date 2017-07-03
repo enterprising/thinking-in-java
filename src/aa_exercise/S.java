@@ -1,4 +1,4 @@
-package exercise;
+package aa_exercise;
 
 /**
  * Created by peng.tan on 17/6/25.
