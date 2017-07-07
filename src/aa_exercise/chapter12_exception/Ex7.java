@@ -10,7 +10,7 @@ import java.util.logging.Logger;
 public class Ex7 {
     private static int[] ia = new int[2];
     private static Logger logger = Logger.getLogger("Ex7 Exceptions");
-    static void logException(Exception e) { // Exception e argument
+    static void logException(Exception e) {
         StringWriter trace = new StringWriter();
         e.printStackTrace(new PrintWriter(trace));
         logger.severe(trace.toString());
@@ -22,7 +22,6 @@ public class Ex7 {
             System.err.println(
                     "Caught ArrayIndexOutOfBoundsException");
             e.printStackTrace();
-            // call logging method:
             logException(e);
         }
     }
