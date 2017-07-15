@@ -11,7 +11,7 @@ import java.util.stream.Collectors;
 /**
  * Created by peng.tan on 17/7/15.
  */
-public class ColletorGrouBy {
+public class CollectorGroupingBy {
 
     /**
      * 根据tasktype对task分组。这里利用的是colletor里面的grouping by
