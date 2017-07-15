@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bcfd86b2-c042-4475-ad8e-60fcf6041708" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/aa_java8/T.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -56,13 +55,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UsingOtherCollections.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UsingOtherCollections.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/aa_java8/collector/UsingOtherCollections.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
+            <state relative-caret-position="-110">
               <caret line="19" column="14" lean-forward="true" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ColletorGrouBy.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/aa_java8/collector/ColletorGrouBy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="502">
+              <caret line="76" column="0" lean-forward="true" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1195#1196#0" expanded="true" />
+                <element signature="e#1229#1230#0" expanded="true" />
+                <element signature="e#1262#1263#0" expanded="true" />
+                <element signature="e#1297#1298#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -141,7 +156,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/exercise/chapter11/Statistics.java" />
         <option value="$PROJECT_DIR$/src/code/access/cookie2/Cookie.java" />
         <option value="$PROJECT_DIR$/src/code/holding/MapOfList.java" />
         <option value="$PROJECT_DIR$/src/exercise/chapter11/Cat.java" />
@@ -192,6 +206,7 @@
         <option value="$PROJECT_DIR$/src/aa_java8/collector/Example2_ReduceValue.java" />
         <option value="$PROJECT_DIR$/src/concurrency/Joining.java" />
         <option value="$PROJECT_DIR$/src/aa_java8/collector/UsingOtherCollections.java" />
+        <option value="$PROJECT_DIR$/src/aa_java8/collector/ColletorGrouBy.java" />
       </list>
     </option>
   </component>
@@ -849,7 +864,14 @@
       <option name="project" value="LOCAL" />
       <updated>1500102097676</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Java8 colletor 真的是.. 神器！！！">
+      <created>1500106242263</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1500106242263</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -872,7 +894,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25928918" sideWeight="0.49284253" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25928918" sideWeight="0.49284253" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32739726" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -909,7 +931,8 @@
     <MESSAGE value="Java8 接口中的默认方法和静态方法" />
     <MESSAGE value="Java8 stream" />
     <MESSAGE value="think in java Chapter12 Excepetion" />
-    <option name="LAST_COMMIT_MESSAGE" value="think in java Chapter12 Excepetion" />
+    <MESSAGE value="Java8 colletor 真的是.. 神器！！！" />
+    <option name="LAST_COMMIT_MESSAGE" value="Java8 colletor 真的是.. 神器！！！" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -922,8 +945,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/generics/MultipleInterfaceVariants.java" />
-    <entry file="file://$PROJECT_DIR$/src/annotations/InterfaceExtractorProcessor.java" />
     <entry file="file://$PROJECT_DIR$/src/generics/UseList.java" />
     <entry file="file://$PROJECT_DIR$/src/annotations/database/TableCreationProcessorFactory.java" />
     <entry file="file://$PROJECT_DIR$/src/generics/Erased.java" />
@@ -1238,10 +1259,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/aa_java8/collector/UsingOtherCollections.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
+        <state relative-caret-position="-110">
           <caret line="19" column="14" lean-forward="true" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/stream/Collectors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-13170">
+          <caret line="803" column="4" lean-forward="false" selection-start-line="803" selection-start-column="4" selection-end-line="803" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#33990#33991#0" expanded="false" />
+            <element signature="e#34045#34046#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aa_java8/collector/ColletorGrouBy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="502">
+          <caret line="76" column="0" lean-forward="true" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1195#1196#0" expanded="true" />
+            <element signature="e#1229#1230#0" expanded="true" />
+            <element signature="e#1262#1263#0" expanded="true" />
+            <element signature="e#1297#1298#0" expanded="true" />
           </folding>
         </state>
       </provider>
