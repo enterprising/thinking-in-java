@@ -6,7 +6,7 @@ import java.util.TimerTask;
 /**
  * Created by peng.tan on 17/7/26.
  * <p>
- * 测试java的定时任务
+ * 测试java的定时任务 （任务调度）
  */
 public class TimerTest {
     Timer timer;

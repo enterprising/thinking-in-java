@@ -20,5 +20,4 @@ public class LambdaDemo {
         // 更高级的写法
         Collections.sort(names, Comparator.comparingInt(String::length));
     }
-
 }
