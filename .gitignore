@@ -1,10 +1,17 @@
+.gitignore
 .settings/
 .project
 .classpath
 .DS_Store
 target/
 tmp/
+athena-core/logs
+athena-core/test-output/
+athena-core/jmp.log*
+athena-core/conf/git.properties
 
 # idea
 .idea
+*.eml
 *.iml
+testscript/__pycache__/
