@@ -4,14 +4,13 @@
 .classpath
 .DS_Store
 target/
+out/
 tmp/
-athena-core/logs
-athena-core/test-output/
-athena-core/jmp.log*
-athena-core/conf/git.properties
+
 
 # idea
 .idea
 *.eml
 *.iml
+*.class
 testscript/__pycache__/
