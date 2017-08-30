@@ -7,10 +7,8 @@ target/
 out/
 tmp/
 
-
 # idea
 .idea
 *.eml
 *.iml
 *.class
-testscript/__pycache__/
